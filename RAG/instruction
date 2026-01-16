@@ -1,0 +1,11 @@
+pip install \
+  langchain==0.1.16 \
+  langchain-core==0.1.46 \
+  langchain-community==0.0.34 \
+  chromadb==0.4.24 \
+  sentence-transformers
+
+pip install fastapi uvicorn mcp
+
+
+LANGFLOW_LOG_LEVEL=debug python3 -m langflow run
