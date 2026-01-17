@@ -6,7 +6,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 
 # ---------------- CONFIG ----------------
-PDF_FOLDER = "/tmp/rag_folder_data"
+PDF_FOLDER = "pdf"
 CHROMA_DB_PATH = "/tmp/rag_folder_langchian_db"
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 CHUNK_SIZE = 800
