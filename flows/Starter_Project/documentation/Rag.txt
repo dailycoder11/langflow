@@ -1,0 +1,7 @@
+What we will build
+
+A RAG-enabled AI agent that combines a language model with a local ChromaDB knowledge store and external tools, enabling grounded, context-aware responses over enterprise or domain-specific data.
+
+How it works
+
+User queries are enriched by retrieving relevant context from the local ChromaDB (via MCP), which is injected into the language model prompt. The agent can additionally invoke tools such as web fetchers or calculators, and then synthesizes retrieved knowledge and tool outputs into a final response.

@@ -1,0 +1,7 @@
+What we will build
+
+An intent-aware, RAG-enabled multi-agent AI system that routes user queries to specialized agents, grounding responses in a local ChromaDB knowledge base while selectively using external tools.
+
+How it works
+
+User input is first evaluated using lightweight routing logic (if/else). Based on intent, the query is sent to the appropriate agent, which retrieves relevant context from the local ChromaDB (via MCP), optionally invokes tools (web or calculator), and returns a grounded response through the chat interface.

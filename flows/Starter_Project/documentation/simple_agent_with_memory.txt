@@ -1,0 +1,7 @@
+What we will build
+
+A stateful AI agent with short-term memory that can hold context across conversations, use external tools, and generate consistent, informed responses rather than treating every query in isolation.
+
+How it works
+
+Recent conversation history is retrieved and injected into a prompt template before being sent to the language model. The agent reasons over this context, selectively invokes tools (web, calculator, MCP services), produces a response, and stores the interaction back into memory for future turns.

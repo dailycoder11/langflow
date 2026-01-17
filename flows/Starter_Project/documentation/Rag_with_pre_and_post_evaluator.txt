@@ -1,0 +1,7 @@
+What we will build
+
+An advanced RAG-based, tool-orchestrated AI system that combines local ChromaDB knowledge retrieval, intent-based multi-agent routing, and Python-based execution for analytical and data-driven tasks.
+
+How it works
+
+User queries are routed based on intent. The selected agent retrieves relevant context from the local ChromaDB (via MCP), optionally calls tools such as web fetch, calculator, or a Python interpreter for complex computations, and synthesizes all outputs into a grounded response delivered through chat.

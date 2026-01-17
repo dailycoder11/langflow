@@ -1,0 +1,7 @@
+What we will build
+
+A tool-enabled AI agent that combines a high-performance language model with controlled external tools. The agent can reason over user queries, fetch live information, perform precise calculations, and invoke MCP-based services, enabling it to go beyond static, prompt-only responses.
+
+How it works
+
+User input is processed by the language model, which decides when to call external tools such as web data retrieval, calculators, or MCP services. The results from these tools are combined with the model’s reasoning to produce an accurate, contextual response, which is returned to the user via a chat interface.
